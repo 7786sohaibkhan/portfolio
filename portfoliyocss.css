@@ -1,0 +1,55 @@
+* {
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  
+  div {
+    border-radius: 5px;
+  }
+  
+  #header {
+    height: 40px;
+    width: 100%;
+    background-color: yellow;
+    position: fixed;
+    z-index: 1;
+  }
+  
+  #title {
+    margin-left: 3%;
+  }
+  
+  #footer {
+    height: 50px;
+    width: 100%;
+    background-color:rgb(151, 151, 126);
+    clear: both;
+    position: relative;
+  }
+  
+  .left {
+    height: 1000px;
+    width: 40px;
+    background-color: red;
+    float: left;
+    position: fixed;
+  }
+  
+
+  .right {
+    height: 1000px;
+    width: 45px;
+    background-color:red;
+    float: right;
+    position: inherit;
+  }
+  
+  .stuff {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 55px;
+    width: 75%;
+    height: 1000px;
+  }
+  
