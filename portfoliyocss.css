@@ -1,6 +1,7 @@
 
 body {
-	background: blanchedalmond; 
+	background: blanchedalmond;
+background-image: url("csshtml.jpg");
 	font-family: 'Lato', helvetica, arial, sans-serif;
 	font-size: 14px;
 	color:black;}
@@ -9,21 +10,21 @@ body {
 	.clear {clear: both;}
 
 p {
-	font-size: 1em;
-	line-height: 1.4em;
-	margin-bottom: 20px;
+	font-size: 2.5em;
+	line-height: 2em;
+	max-resolution: bottom 20px; ;
 	color: midnightblue;
-	font-size: 1.2em;
+	
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-style: initial;
 	font: xx-large;
 }
 
 #cv {
-	width: 90%;
-	max-width: 800px;
+	width: 100%;
+	max-width: 2500px;
 	background: cornsilk;
-	margin: 30px auto;
+	margin: auto;
 }
 
 .mainDetails {
@@ -33,8 +34,8 @@ p {
 }
 
 #name h1 {
-	font-size: 2.7em;
-	font-weight: 700;
+	font-size: 3em;
+	font-weight: 600;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	margin-bottom: 6px;
 	color: midnightblue;
@@ -44,7 +45,7 @@ p {
 
 
 #mainArea {
-	padding: 0 40px;
+	padding: 40px;
 }
 
 #headshot {
@@ -54,10 +55,10 @@ p {
 }
 
 #headshot img {
-	width: 100%;
+	width: 150%;
 	height: auto;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
 }
 
 #name {
@@ -115,18 +116,18 @@ section {
 .sectionTitle h1 {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-style: italic;
-	font-size: 1.5em;
+	font-size: 3em;
 	color: goldenrod;
 }
 
 .sectionContent h2 {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-	font-size: 1.5em;
+	font-size: 2.5em;
 	margin-bottom: -2px;
 }
 
 .subDetails {
-	font-size: 0.8em;
+	font-size: 1.7em;
 	font-style: italic;
 	margin-bottom: 3px;
 	color: orangered;
@@ -134,9 +135,9 @@ section {
 
 .keySkills {
 	list-style-type: none;
-	-moz-column-count:3;
-	-webkit-column-count:3;
-	column-count:3;
+	-moz-column-count:2;
+	-webkit-column-count:2;
+	column-count:2;
 	margin-bottom: 20px;
 	font-size: 1.5em;
 	color: midnightblue;
@@ -147,3 +148,22 @@ section {
 .keySkills ul li {
 	margin-bottom: 3px;
 }
+
+.buttons{
+    color:midnightblue;
+	float: right;
+	font-size: x-large;
+	}
+	
+	.btn
+    {
+    width: 50cm;
+    font-size: xx-large;
+    color: midnightblue;
+    }
+    .btn a{
+    color: midnightblue    ;
+    }
+    
+
+
